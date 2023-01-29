@@ -6,6 +6,10 @@ public class Group {
     public Group(){
 
     }
+    public Group(String name,int numberOfParticipants){
+        this.name=name;
+        this.numberOfParticipants=numberOfParticipants;
+    }
 
     public String getName() {
         return name;

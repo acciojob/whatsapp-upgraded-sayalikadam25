@@ -10,6 +10,10 @@ public class Message {
     public Message(){
 
     }
+    public Message(int id,String content){
+        this.content=content;
+        this.id=id;
+    }
 
     public int getId() {
         return id;
